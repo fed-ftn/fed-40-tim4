@@ -1,0 +1,25 @@
+
+h1 {
+    text-align: center;
+    color: rgba(0, 0, 255);
+}
+table {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+thead  {
+    background-color: rgb(212, 233, 240);
+    
+}
+th,td {
+    padding: 10px 50px;
+}
+tr {
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+tr:nth-of-type(2n) {
+    background-color:aqua;
+}
