@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="sr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="doktori.css">
-    <title>Document</title>
+    <title>Dodavanje</title>
 </head>
+
 <body>
     <h1>Dodavanje doktora</h1>
-    <form method="post">
-        <label for="ime">Ime</label>
-        <input type="text" name="ime" id="ime" required>
-        <label for="prezime">Prezime</label>
-        <input type="text" name="prezime" id="prezime" required><br>
-        <label for="specijalnost">Specijalnost</label>
-        <input type="text" name="specijalnost" id="specijalnost" required>
-        <label for="kanc">Kancelarija</label>
-        <input type="text" name="kancelarija" id="kanc" required><br>
-        <label for="radnovreme">Radno vreme</label>
-        <input type="date" name="radnovreme" id="radnovreme" required> -
-        <input type="date" name="radnovreme" id="radnovreme" required><br>
-        <input type="submit" name="submit" value="submit">
-        <input type="reset" name="reset" value="Odustani">
+    <form action="tabele.html" method="post">
+
+        <div class="form-item">
+            <label for="ime">Ime</label>
+            <input type="text" name="ime" id="ime" required>
+        </div>
+        <div class="form-item">
+            <label for="prezime">Prezime</label>
+            <input type="text" name="prezime" id="prezime" required>
+        </div>
+        <div class="form-item">
+            <label for="specijalnost">Specijalnost</label>
+            <input type="text" name="specijalnost" id="specijalnost" required>
+        </div>
+        <div class="form-item">
+            <label for="kanc">Kancelarija</label>
+            <input type="text" name="kancelarija" id="kanc" required>
+        </div>
+        <div class="form-item">
+            <label for="radnovreme">Radno vreme</label>
+            <input type="date" name="radnovreme" id="radnovreme" required >
+        </div>     
+        <div class="form-item">
+            <label class="crta" >-</label>
+            <input type="date" name="radnovreme2" id="radnovreme2" required >
+        </div>
+        <input type="submit" name="dodaj" id="dodaj" value="Dodaj">
+        <input type="reset" name="odustani" id="odustani" value="Odustani">
+      
+      
     </form>
 </body>
+
 </html>
