@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pregledi.css" />
+    <title>Pregledi</title>
+  </head>
+  <body>
+    <h1>Dodavanje pregleda</h1>
+    <form action="tabele.html" method="post">
+      <div class="form-item">
+        <label for="naziv">Naziv</label>
+        <input type="text" id="naziv" name="naziv" />
+      </div>
+      <div class="form-item">
+        <label for="doktori">Doktor</label>
+        <select name="doktori" id="doktori">
+          <option value="PeraP">Pera Peric</option>
+          <option value="MikaM">Mika Mikic</option>
+          <option value="MajaM">Maja Majic</option>
+          <option value="JelaJ">Jela Jelic</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <label for="trajanje">Trajanje</label>
+        <input type="text" id="trajanje" name="trajanje" />
+      </div>
+      <div class="form-item">
+        <label for="cena">Cena</label>
+        <input type="number" id="cena" name="cena" />
+      </div>
+      <input type="submit" name="submit" value="Dodaj" />
+      <input type="reset" name="reset" value="Odustani" />
+    </form>
+  </body>
+</html>
